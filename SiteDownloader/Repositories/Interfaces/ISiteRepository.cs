@@ -1,5 +1,6 @@
 ﻿namespace SiteDownloader.Repositories.Interfaces;
 
-internal interface ISiteRepository
+public interface ISiteRepository
 {
+    Task<string> DownloadSite(string url);
 }

@@ -1,5 +1,6 @@
 ﻿namespace SiteDownloader.Services.Interfaces;
 
-internal interface ISiteDownloaderService
+public interface ISiteDownloaderService
 {
+    Task Download(string url);
 }

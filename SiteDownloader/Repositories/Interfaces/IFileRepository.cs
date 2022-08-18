@@ -2,4 +2,5 @@
 
 public interface IFileRepository
 {
+    void WriteToFile(string folderPath, string fileName, string htmlContent);
 }

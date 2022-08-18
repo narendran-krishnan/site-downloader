@@ -16,6 +16,7 @@ public static class HostBuilderConfiguration
         services
             .AddScoped<IFileRepository, FileRepository>()
             .AddScoped<ISiteRepository, SiteRepository>()
+            .AddScoped<IFolderRepository, FolderRepository>()
             .AddScoped<ISiteDownloaderService, SiteDownloaderService>());
     }
 }
